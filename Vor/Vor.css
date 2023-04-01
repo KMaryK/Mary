@@ -1,0 +1,67 @@
+.common-text {
+box-sizing: border-box;
+width: 975px;
+
+text-align: start;
+font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+padding: 0 60px;
+}
+.Voronezh{
+  list-style-type: none;
+display: grid;
+grid-template-columns: 0cm;
+grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 15px;
+}
+.Voronezh__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.Voronezh__list-item-image {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100%;
+
+  aspect-ratio: 1/1;
+
+  border-radius: 10px;
+
+  object-position: center center;
+  object-fit: fill;
+}
+.Voronezh__list-item-text {
+  box-sizing: border-box;
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.Voronezh__list-item-text-spetual{
+ padding-left: 33px;
+ padding-right: 33px;
+
+
+}
+.common-text-think{
+  box-sizing: border-box;
+width: 100%
+
+text-align: left;
+font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+padding: 0 60px;
+background-color: #f5fafe;
+border-radius: 10px;
+margin: 30px auto 60px;
+}
