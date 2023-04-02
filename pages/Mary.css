@@ -1,7 +1,6 @@
 @import url(../header/header.css);
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url(../footer/footer.css);
 @import url(../about/about.css);
 @import url(../Vor/Vor.css);
 @import url(../resent/resent.css);
@@ -31,7 +30,7 @@
 .big_photo{
   box-sizing: border-box;
 
-width: 1280px;
+width: 100%;
 border-radius: 20px;
  object-fit: cover;
  object-position: center center;
@@ -39,9 +38,6 @@ border-radius: 20px;
 }
 @media screen and (max-width: 375px) {
 .big_photo{
-width: 328px;
-
-
 border-radius: 4px;
 }
 }

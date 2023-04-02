@@ -33,10 +33,10 @@ width: 100%;
 
   aspect-ratio: 1/1;
 
-  border-radius: 10px;
+ 
 
   object-position: center center;
-  object-fit: fill;
+  object-fit: contain;
 }
 .Voronezh__list-item-text {
   box-sizing: border-box;
